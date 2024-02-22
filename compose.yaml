@@ -1,0 +1,10 @@
+services:
+  tings:
+    build:
+      context: .
+      platforms:
+        - linux/amd64
+    container_name: tings
+    platform: linux/amd64
+    ports:
+      - 8086:8086
