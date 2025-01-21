@@ -21,6 +21,8 @@ RUN go build -o /go/bin/server ./cmd/server
 
 FROM gcr.io/distroless/base-debian12
 
+LABEL "org.opencontainers.image.source"="https://github.com/haleyrc/tings"
+
 COPY --from=builder /go/bin/server /
 
 CMD ["/server"]
