@@ -1,0 +1,7 @@
+services:
+  tings:
+    container_name: tings
+    image: ghcr.io/haleyrc/tings:latest
+    platform: linux/amd64
+    ports:
+      - 8086:8086
