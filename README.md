@@ -8,11 +8,15 @@
    ```bash
    ssh <IP>
    ```
-3. Pull the new image:
+3. Navigate to the project directory:
+   ```bash
+   cd /volume1/docker/tings
+   ```
+4. Pull the new image:
    ```bash
    sudo docker pull ghcr.io/haleyrc/tings:latest
    ```
-4. Restart the service:
+5. Restart the service:
    ```bash
    sudo docker-compose up -d server
    ```
