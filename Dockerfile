@@ -1,4 +1,4 @@
-FROM golang:1.24-bookworm AS builder
+FROM --platform=linux/amd64 golang:1.24-bookworm AS builder
 
 WORKDIR /go/src/app
 
@@ -19,7 +19,7 @@ RUN go build -o /go/bin/server ./cmd/server
 
 ###############################################################################
 
-FROM gcr.io/distroless/base-debian12
+FROM --platform=linux/amd64 gcr.io/distroless/base-debian12
 
 LABEL "org.opencontainers.image.source"="https://github.com/haleyrc/tings"
 
