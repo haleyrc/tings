@@ -1,0 +1,12 @@
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/haleyrc/log v0.0.1 h1:w0Rxr9DjneUIR5Fz/8OJFsYH/jdVQkq6T3t0rGOzgHc=
+github.com/haleyrc/log v0.0.1/go.mod h1:jaf2diCyxJOY1kv/oY7c4uCmyaOBUTgLQttcxm2X8PY=
+github.com/haleyrc/log v0.0.2 h1:JE2x4DmMP4mTJSTZXd2XESv9g9GhVpccGkv4ue6Gh3c=
+github.com/haleyrc/log v0.0.2/go.mod h1:WqP12PLm6gQxHPgugr2pY5tw5upUz9FnVHL/zTc8MAk=
+github.com/haleyrc/router v0.0.2 h1:nkLRza+ssv1gAIMcW/BGL5eAdifQ/XM/3Q8F5FcAugo=
+github.com/haleyrc/router v0.0.2/go.mod h1:5Z+2UOi3jsR6HmgEO5jXWshAFbJHwOqhmrouTWcy6aQ=
+github.com/haleyrc/server v0.0.1 h1:ECipE1l4XNroHKRiXBT0qn2Rm64rJKUoykLKVDXjoMM=
+github.com/haleyrc/server v0.0.1/go.mod h1:QeiH8sSgfS4sjChO5Dgrx/dwSPkluURSxL1lkNQIKJE=
+github.com/haleyrc/tag v0.0.2 h1:eVruQ4/w0hNfrQCRssJxD14EMDxkUvDY/MO4H9plbSA=
+github.com/haleyrc/tag v0.0.2/go.mod h1:UUF3HZVe94XSt35XFLS54R68Pu01cC4d5LK4yGK1zQQ=
